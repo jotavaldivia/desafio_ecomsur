@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Lugar</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="background">
+    <header class="header">
+        <img class="logo" src="assets/img/Tu Lugar.gif" alt="logo">
+        <nav class="header__navbar">
+            
+            <ul class="header__navbar__menu">
+                <li class="header__navbar__menu__li"><a class="header__navbar__menu__a" href="#">Inicio</a></li>
+                <li class="header__navbar__menu__li"><a class="header__navbar__menu__a" href="#busca">Busca Tú Lugar</a></li>
+                <li class="header__navbar__menu__li"><a class="header__navbar__menu__a" href="#sobre">Sobre</a></li>
+                <li class="header__navbar__menu__li"><a class="header__navbar__menu__a" href="#contacto">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+        <h1 class="main__container__title">Lugares Más Buscados</h1>
+        <div>
+            <section class="seccion__gallery">
+                <img class="seccion__gallery__img" src="assets/img/paris.jfif" alt="imagen 1">
+                <img class="seccion__gallery__img" src="assets/img/brazil.jpg" alt="imagen 2">
+                <img class="seccion__gallery__img" src="assets/img/canada.jpg" alt="imagen 3">
+                <img class="seccion__gallery__img" src="assets/img/chile.jpg" alt="imagen 4">
+                <img class="seccion__gallery__img" src="assets/img/china.jpg.crdownload" alt="imagen 5">
+                <img class="seccion__gallery__img" src="assets/img/mexico.jpg" alt="imagen 6">
+                <img class="seccion__gallery__img" src="assets/img/us.jfif" alt="imagen 7">
+                <img class="seccion__gallery__img" src="assets/img/rusia.jpg" alt="imagen 8"
+            </section>
+        </div>
+    </header>
+
+    <main class="main__container">
+        <h1 class="main__container__title" id="busca">Busca Tú País</h1>
+        <div class="container__about">
+            <form class="container__form" action="">
+                </label> 
+                    <input class="container__form__inut" type="text" id="search__input"
+                    placeholder="Ingresar nombre del pais"></input>
+                <input class="container__form__button" type="button" value="Buscar" onclick="getCountry()"></input>
+            </form>
+            <div class="search__results" id="search__results">
+
+            </div>
+            <!-- <div class="search_results">
+              <table>
+                  <thead>
+                      <tr>
+                          <th>Capital</th>
+                          <th>Bandera</th>
+                          <th>Nombre Completo del País</th>
+                          <th>Región</th>
+                          <th>Países Limístrofes</th>
+                          <th>Lengua</th>
+                          <th>Nombre y Simbolo de moneda</th>
+                      </tr>
+                  </thead>
+                  <tbody>
+
+                  </tbody>
+              </table>
+            </div> -->
+        </div>
+        
+
+        <h1 class="main__container__title" id="sobre">Sobre Nosotros</h1>
+        <div class="container__about">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt mollitia ducimus ut sint praesentium, quia
+                fugit? Repellat quod, temporibus maiores atque, suscipit saepe harum quam nesciunt ex dolorum, inventore
+                maxime!</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt mollitia ducimus ut sint praesentium, quia
+                fugit? Repellat quod, temporibus maiores atque, suscipit saepe harum quam nesciunt ex dolorum, inventore
+                maxime!</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt mollitia ducimus ut sint praesentium, quia
+                fugit? Repellat quod, temporibus maiores atque, suscipit saepe harum quam nesciunt ex dolorum, inventore
+                maxime!</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt mollitia ducimus ut sint praesentium, quia
+                fugit? Repellat quod, temporibus maiores atque, suscipit saepe harum quam nesciunt ex dolorum, inventore
+                maxime!</p>
+        </div>
+
+        <h1 class="main__container__title" id="contacto">Formulario de Contacto</h1>
+        <div class="container__about">
+            <form class="container__form__contact" action="">
+                <div class="container__form__contact__div"> <label for="">Nombre </label> <input type="text"
+                        class="container__form__contact__input"></div>
+                <div class="container__form__contact__div"> <label for="">Correo </label> <input type="text"
+                        class="container__form__contact__input"></div>
+                <label for="">Mensaje </label> <textarea name="" id="" cols="40" rows="10"
+                    class="container__form__contact__textarea"></textarea>
+
+            </form>
+        </div>
+
+    </main>
+    <footer class="footer">
+        <section class="footer__menu">
+            <h4>© Copyright 2020 | Todos los derechos reservados </h4>
+            <h4>Desarrollado por juan valdebenito</h4>
+        </section>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
