@@ -5,7 +5,7 @@ let getCountry = ()=>{
    let url = `https://restcountries.eu/rest/v2/name/${country}`
 
    if(country==""){
-      alert("el campo está vacio, favor agregar nombre de un pais")
+      alert("el campo está vacio, favor agregar nombre de un país")
    }else{
  
    fetch(url)
